@@ -135,5 +135,6 @@ class Register extends Layer {
 
 manager.registerLayer({
     layer: new Register(),
-    where: options.layerVisibility.onlogout
+    where: options.layerVisibility.onlogout,
+	type: options.layerType.system
 });
